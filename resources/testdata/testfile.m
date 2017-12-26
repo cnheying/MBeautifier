@@ -48,3 +48,9 @@ a(3, 4:5) = [3, 1]
 
 % norm notation
 1.e-6
+
+%AddCommasToMatrices
+a=[@(x) minus(x,1),]
+
+%AddCommasToCellArrays
+a={@(x) minus(x,1),  @(x,y) minus(x,y)}
